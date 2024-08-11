@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Finer</title>
+    <style>
+        body{
+            background-color: rgb(204, 251, 133);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #card1 {
+            background-color: rgb(12, 182, 12);
+            padding: 40px;
+            border-radius: 20px;   
+            box-shadow: green 10px 10px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 5px;
+            margin: 10px;
+            font-size: large;
+            border-radius: 5px;
+        }
+        input {
+            width: 280px;
+            height: 30px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            background-color: antiquewhite;
+        }
+        #result {
+            background-color: antiquewhite;
+            border: 1px solid black;
+            width: 310px;
+            height: 100px;
+            border-radius: 5px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="card1">
+        <h1>Prime Number Finder</h1>
+        <input type="number" id="number" placeholder="Enter Number..." required>
+        <div class="buttons">
+            <button type="reset" id="reset">Reset</button>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        <div id="result">
+            <h2>Result</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
